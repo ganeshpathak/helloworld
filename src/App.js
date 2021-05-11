@@ -1,9 +1,11 @@
 import React from 'react';
+import Profile from './components/profile/profile'
 
 function App() {
+
   return (
     <div className="App">
-      Hello World
+      Hello World <Profile></Profile>
     </div>
   );
 }
